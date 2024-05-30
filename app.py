@@ -44,3 +44,6 @@ def sendMessage():
             #En caso de fallo capturamos el error y lo mostramos en consola para ver los detaller
             print(e)
     return redirect("/")
+
+if __name__ == "__main__":
+    app.run(debug=True)
