@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis correos</title>
+</head>
+<body>
+    <form action="/sendMessage" method="post">
+        <input type="text" name="subject" id="subject" placeholder="Aquí va tu asunto">
+        <label for="subject">Asunto</label>
+
+        <input type="email" name="recipient" id="recipient" placeholder="ejemplo@gmail.com">
+        <label for="email">Correo</label>
+
+        <textarea name="body" id="body" placeholder="Aquí va tu mensaje"></textarea>
+
+        <input type="file" name="excel" id="excel">
+        <label for="excel">Archivop excel</label>
+
+        <button type="submit">Enviar</button>
+        <button type="reset">Cancelar</button>
+    </form>
+</body>
+</html>
